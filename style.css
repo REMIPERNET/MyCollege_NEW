@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    /* background-color: lightblue;
+    background-image: url("./assets/img/university-900.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+header img{
+    width: 100%;
+    height: auto;
+}
+#logo{
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    font-style: italic;
+    padding-left: .5em;
+    font-weight: bold;
+    position: absolute;
+    top: 1%;
+}
+header nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+    font-style: italic;
+}
+nav ul li a:hover{
+    background-color: rgba(205, 134, 63, 0.514);
+}
+#header_center{
+    width: 100%;
+    position: absolute;
+    bottom: 40%;
+    text-align: center;
+    color: white;
+}
+#header_center a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(107, 148, 182);
+    font-size: 2em;
+}
+#header_center a:hover{
+    background-color: rgb(43, 97, 141);
+}
+#div1{
+    width: auto;
+    display: flex;
+}
+#div1_1{
+    width: 50%;
+    display: flex;
+    float: left;
+    margin-bottom: 2%;
+
+
+}
+#div1_2{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 4% 0;
+    font-size: 2.5em;
+}
+
+.buttons{
+    size: 10px;
+    text-align: center;
+    padding-left: 2.5%;
+
+}
+.buttons a{
+    text-decoration: none;
+}
+#rose{
+    width: 100%;
+    background-color: rgb(197, 109, 150);
+    text-align: center;
+    display: inline-block;
+}
+#rose p{
+    font-size: 2.5em;
+    color: white;
+    padding: 3% 0;
+}
+#students{
+    display: flex;
+    padding-bottom: 2%;
+}
+#Tom{
+    width: 50%;
+}
+#art_facilities{
+    display: flex;
+}
+#art_1{
+    width: 100%;
+    text-align: center;
+    padding: 10% 0;
+}
+#art_1 p{
+    font-size: 2.5em;
+}
+
+
