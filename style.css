@@ -12,10 +12,6 @@ header{
     position: relative;
     margin: auto;
     width: 100%;
-    /* background-color: lightblue;
-    background-image: url("./assets/img/university-900.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 header img{
     width: 100%;
@@ -146,6 +142,7 @@ footer nav ul li a:hover{
 footer nav ul li a{
     color: white;
     font-style: normal;
+
 }
 footer p{
     text-align: center;
